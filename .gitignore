@@ -1,0 +1,86 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+.env/
+ENV/
+.venv/
+env.bak/
+pip-wheel-metadata/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Django stuff
+*.log
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+static/
+*.pot
+*.pyc
+
+# Migrations (optional - only ignore if you plan to auto-generate them in CI/CD)
+# Comment this out if you want migrations tracked in git
+# **/migrations/
+
+# Environment and config
+.env
+*.env
+.env.local
+.env.*.local
+
+# Coverage and testing
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# Django cache
+*.cache
+
+# VSCode Python cache
+.pyrightcache/
+
+# Type checking
+mypy_cache/
+.dmypy.json
+.pyre/
+
+# Docker (if you use it)
+*.pid
+*.tar
+*.log
+docker-compose.override.yml
+
+# Node / frontend (if DRF + React or Next.js)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+build/
+.next/
